@@ -166,7 +166,8 @@ const main = async () => {
     try {
       const cleanedQuery = query.replace("-is:retweet", "").trim();
       const filePath = path.resolve(
-        "C:\\Users\\migue\\OneDrive\\Desktop\\programming\\X Research\\Documents\\",
+        "[YOUR_PATH]",
+        `${cleanedQuery}.csv`
         `${cleanedQuery}.temp.csv`
       );
       await getTweetDataWithStopSupport(
