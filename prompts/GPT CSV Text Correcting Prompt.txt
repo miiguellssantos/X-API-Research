@@ -1,0 +1,28 @@
+I will upload one or more CSV files containing tweet data with the following 9 fields:
+- geo ? JSON.stringify(tweet.geo) : 'N/A'
+- created_at
+- like_count || 0
+- retweet_count || 0
+- id
+- username || 'N/A'
+- text.replace(/\n/g, ' ')
+- location || 'N/A'
+- followers_count || 0
+
+These files are often messy, inconsistent, and poorly structured. I want you to:
+
+1. Clean and correct all formatting issues.
+2. Apply the following standards:
+   - Missing Geo, Created At, Tweet ID, Username, Text, User Location: fill with "N/A".
+   - Missing Likes, Retweets, Followers Count: fill with 0 and convert to integers.
+   - Convert Tweet ID to string to prevent scientific notation.
+   - Clean up Text field by:
+     - Removing URLs, mentions (@username), special characters, and newlines.
+     - Converting everything to lowercase.
+     - Removing common stop words.
+     - Replacing the original Text column (no new column).
+   - Strip whitespace and normalize all string fields.
+3. Split files only if needed (e.g., more than 100,000 rows).
+4. Return the final product as downloadable CSV file(s).
+
+I will also upload a sample corrected file to use as the formatting reference. Use it to match output structure and quality.

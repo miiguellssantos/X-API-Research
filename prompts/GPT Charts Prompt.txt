@@ -1,0 +1,9 @@
+I am going to upload a CSV file. About it, give me:
+- One line chart on the amount of tweets year by year with the X axis being each year ( FOR EXAMPLE (THIS IS NOT A STRICT YEAR RANGE, ADAPT TO THE YEARS CONTAINED ON THE FILE) 2007-2008-2009-2010-2011-2012-2013-2014-2015-2016-2017-2018-2019-2020-2021-2022-2023-2024-2025)
+- Twelve SEPARATE line charts on the amount of tweets by month over the years 
+    . The X axis HAS to be each year ( FOR EXAMPLE (THIS IS NOT A STRICT YEAR RANGE, ADAPT TO THE YEARS CONTAINED ON THE FILE) 2007-2008-2009-2010-2011-2012-2013-2014-2015-2016-2017-2018-2019-2020-2021-2022-2023-2024-2025)
+    . The numbers on the X axis have to be vertically displayed
+    . I don't want one big picture with the separate small charts in it. i want 12 separate unique charts
+- A heatmap of monthly tweet activity by year
+ - All the charts got to have a title with the subject.
+- In the date 25 May 2020, there has to be a red dot, with the caption "George Floyd" on every line chart.

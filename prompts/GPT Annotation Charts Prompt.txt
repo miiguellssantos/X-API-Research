@@ -1,0 +1,32 @@
+
+📊 Prompt to Recreate the Chart Series with Full Customization
+
+I want to create a line chart from a [CSV or Excel file] showing yearly tweet volume.
+Use the following visual and formatting instructions:
+
+1. The line chart should span from the earliest to the most recent year in the file.
+2. On the Y-axis, display tweet count. The X-axis should show full years (e.g., 2010, 2011, ..., 2025).
+3. Title the chart using the subject name I provide (e.g., “Police Use of Force (Canada)”).
+
+Annotation Box Instructions:
+4. Add [annotation content] underneath the chart as gray boxes.
+5. Each box must have the same width, tall layout, and be top-aligned.
+6. Position the boxes evenly across the bottom section with balanced spacing.
+7. If I only want 1 or 2 boxes, space them accordingly and center them as needed.
+8. If I request it, align a box directly under a specific year (like 2020).
+
+Sentiment Caption Instructions:
+9. Add a legend in the top-right corner of the chart showing sentiment percentages.
+   - Example: 🔴 “Negative: 87.02%” and 🟢 “Positive: 12.98%”
+   - Use a red patch and green patch for visual clarity.
+
+Styling Preferences:
+- Use large, readable text inside the annotation boxes.
+- Break lines to make boxes taller, not wider.
+- Use clean fonts and no decorative borders.
+- Ensure consistent spacing and visual alignment between elements.
+
+I’ll provide:
+- [CSV or Excel file] with tweet counts.
+- [annotation content] — 1 to 3 news event summaries.
+- [sentiment percentages] — for negative and positive content.

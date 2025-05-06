@@ -1,0 +1,19 @@
+I have a CSV file containing tweet data. I want you to generate an Excel table that shows how many tweets were made per month. Follow these instructions exactly:
+
+	1. The output table must have three columns: Year, Month (as 	full names, 	e.g., January), and Tweet count.
+
+	2. Include all 12 months for each year present in the data — even if 	the tweet count is 0.
+
+	3. Sort the data starting with the most recent year (e.g., 2025), 	and list months from January to December within each year.
+
+	4. Save the result as an Excel file (.xlsx) with no extra index 	columns.
+
+In addition, create three separate Excel files, each showing tweet counts for the years:
+
+- 2013
+
+- 2016
+
+- 2020
+
+These files should follow the same format and structure.

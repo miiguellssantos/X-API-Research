@@ -1,0 +1,17 @@
+I will upload one or more CSV files. For each file, I want you to:
+
+	1. Clean the Text column by:
+
+	    - Removing URLs, usernames (@someone), and special characters.
+
+	    - Converting all text to lowercase.
+
+	    - Removing common English stop words.
+
+	2. Replace the original Text column with the cleaned version (don’t 	add a new column).
+
+	3. Return the cleaned version of the file as a downloadable CSV.
+
+Some of the files may be very large, so handle them efficiently if needed (e.g., in chunks).
+
+Let me upload the first one — just analyze it first so you understand the structure.
